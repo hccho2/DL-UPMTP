@@ -13,6 +13,7 @@ import ctypes
 import torch
 import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
+import argparse
 
 class CNNModel(torch.nn.Module):
     def __init__(self):
@@ -65,12 +66,21 @@ def predict(model,img):
     return prob[0]
 
 ######################### Model Loading  ############################################
+parser = argparse.ArgumentParser()
+parser.add_argument('model_filename', nargs='?')  # 첫번째 argument
+args = parser.parse_args()
+
+if args.model_filename is None:
+    print('usage: python mnist_prediction.py model_filename')
+    exit()
+    
+
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 model = CNNModel().to(device)
 
-model_filename = 'saved_models/ch7/mnist_cnn_20.pt'
-model.load_state_dict(torch.load(model_filename, map_location = device))
+
+model.load_state_dict(torch.load(args.model_filename, map_location = device))
 model.eval()
 
 canvas = np.ones((600,600), dtype="uint8") * 255 # 255=white
