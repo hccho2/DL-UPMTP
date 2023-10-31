@@ -4,6 +4,8 @@ Understand Deep Learning principles and master Tensorflow and Pytorch at once
 
 책에 포함된 소스 코드를 Jupyter Notebook 형태로 제공한다.
 
+
+## 실습 파일 목록
 - DL-TF-TORCH-CH1-Basic.ipynb
 - DL-TF-TORCH-CH2-3-Regression-DL.ipynb
 - DL-TF-TORCH-CH4-Data-Model.ipynb
