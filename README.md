@@ -6,7 +6,7 @@ Understand Deep Learning principles and master Tensorflow and Pytorch at once
 
 
 ## 실습 파일 목록
-- [DL-TF-TORCH-CH1-Basic.ipynb](https://github.com/hccho2/DL-UPMTP/blob/main/DL-TF-TORCH-CH1-Basic.ipynb)
+- :rocket: [DL-TF-TORCH-CH1-Basic.ipynb](https://github.com/hccho2/DL-UPMTP/blob/main/DL-TF-TORCH-CH1-Basic.ipynb)
 - [DL-TF-TORCH-CH2-3-Regression-DL.ipynb](https://github.com/hccho2/DL-UPMTP/blob/main/DL-TF-TORCH-CH2-3-Regression-DL.ipynb)
 - [DL-TF-TORCH-CH4-Data-Model.ipynb](https://github.com/hccho2/DL-UPMTP/blob/main/DL-TF-TORCH-CH4-Data-Model.ipynb)
 - [DL-TF-TORCH-CH5-TF-Custom-Training.ipynb](https://github.com/hccho2/DL-UPMTP/blob/main/DL-TF-TORCH-CH5-TF-Custom-Training.ipynb)
