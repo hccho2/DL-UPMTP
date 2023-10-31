@@ -15,3 +15,6 @@ Understand Deep Learning principles and master Tensorflow and Pytorch at once
 - [DL-TF-TORCH-CH8-RNN-NLP.ipynb](https://github.com/hccho2/DL-UPMTP/blob/main/DL-TF-TORCH-CH8-RNN-NLP.ipynb)
 - [DL-TF-TORCH-CH8-Huggingface.ipynb](https://github.com/hccho2/DL-UPMTP/blob/main/DL-TF-TORCH-CH8-Huggingface.ipynb)
 - [DL-TF-TORCH-CH9-Audio.ipynb](https://github.com/hccho2/DL-UPMTP/blob/main/DL-TF-TORCH-CH9-Audio.ipynb)
+
+## Errata(정오표)
+- page 715: xxx
