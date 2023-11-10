@@ -17,4 +17,5 @@ Understand Deep Learning principles and master Tensorflow and Pytorch at once
 - :tennis: [DL-TF-TORCH-CH9-Audio.ipynb](https://github.com/hccho2/DL-UPMTP/blob/main/DL-TF-TORCH-CH9-Audio.ipynb)
 
 ## Errata(정오표)
+오탈자나 수정사항을 Issues로 알려주세요. 반영하겠습니다.
 - page 715: xxx
